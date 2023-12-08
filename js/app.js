@@ -34,6 +34,7 @@ const loadData = () => {
         fetch(url)
             .then(response => response.json())
             .then(data => displayData(data))
+            .catch(error => alert('No City Found'))
     } else {
         // error
         alert('No City Found!!');
