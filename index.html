@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- title -->
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- style -->
+    <style>
+        /* body */
+        body {background: url(images/bg-image.jpg) no-repeat;background-size: cover;height: 100vh;}
+    </style>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- form -->
+        <div class="col-md-6 m-auto pt-5">
+            <!-- title -->
+            <h1 class="text-white text-center mb-3">Temperature Hot</h1>
+            <!-- input group -->
+            <div class="input-group mb-3">
+                <!-- search input -->
+                <input type="text" class="form-control" placeholder="Enter a location for Weather ..." id="search-input">
+                <!-- search btn -->
+                <div class="input-group-append">
+                    <!-- btn -->
+                    <button type="button" class="btn btn-danger" onclick="loadData()">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- weather status container -->
+        <div class="weather-status text-white text-center">
+            <!-- weather image -->
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-weather-296-1100758.png?f=webp&w=128" height="60px" 
+            width="60px" id="icon" alt="icon">
+            <!-- city name -->
+            <h1 id="city">City</h1>
+            <!-- temperature -->
+            <h3><span id="temperature">Temperature</span> &deg;C</h3>
+            <!-- status -->
+            <h5 id="weather-status">Status</h5>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
