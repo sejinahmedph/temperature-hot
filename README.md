@@ -2,4 +2,4 @@
 
 ### Live Website:
 
-https://temperature-hot.vercel.app
+https://temperature-hot-sejin.vercel.app
